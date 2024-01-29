@@ -18,8 +18,8 @@ public class Guess_Game extends javax.swing.JFrame {
      * Creates new form Guess_Game
      */
     // array of words
-    String[] words = {"driver","signature","history", "response","president","highway", 
-                      "computer", "appartment", "forest", "chocolat", "lawyer"};
+    String[] words = {"driver","lernen","signature","Bahnhof","history","Bitte", "response","president","highway", 
+                      "computer","helfen", "appartment","Hallo", "forest", "chocolat","Sonne", "lawyer","Belegung","Polizei"};
     int index = -1;
      Border panel_border = BorderFactory.createMatteBorder(2, 2, 2, 2, Color.black);
     public Guess_Game() {
