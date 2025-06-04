@@ -217,11 +217,15 @@ public class Guess_Game extends javax.swing.JFrame {
 
     private void jButton_Next_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_Next_ActionPerformed
         // check the word/ display the next word
-         checkWord();
+        checkWord();
         if(index < words.length - 1)
         {
-           index++;
-           displayWord(); 
+            index++;
+            displayWord();
+
+            // reset the result label for the next guess
+            jLabel_Result.setText("Result");
+            jLabel_Result.setBackground(new java.awt.Color(102, 102, 102));
         }
     }//GEN-LAST:event_jButton_Next_ActionPerformed
 
